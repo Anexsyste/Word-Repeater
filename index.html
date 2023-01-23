@@ -1,11 +1,17 @@
 <DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
+        <title>Word Repeater</title>
+        <meta charset="utf-8">
     </head>
     <body>
-        <textarea ></textarea>
-        <button onclick="repeat()"> Run </button>
+        <h1>Word Repeater</h1>
+        <h6>The only purpose of this website is to repeat a word or multiple words you write in the box. It will repeat it for 20 lines.</h6>
+            <div id="container">
+        <textarea id="word-el"></textarea>
+        <br>
+        <button id="w" onclick="repeat()"> Run </button>
         <p id="repeat-el">Word will appear here</p>
         <p id="repeat-el">Word will appear here</p>
         <p id="repeat-el">Word will appear here</p>
@@ -27,6 +33,7 @@
         <p id="repeat-el">Word will appear here</p>
         <p id="repeat-el">Word will appear here</p>
         <p id="repeat-el">Word will appear here</p>
-        
+    </div>
+        <script scr="index.js"></script>
     </body>
 </html>
