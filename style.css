@@ -33,8 +33,31 @@ h1,h6{
     font-size:30px;
 }
 
+textarea{
+    width: 250px;
+    height: 100px;
+}
 
 
 #container{
     text-align: center;
+}
+
+@media (min-width:350px ){
+
+    #heading .desc{
+        font-size:15px; 
+        border-radius: 0;
+    }
+
+    #heading .title{
+        font-size: 75px;
+        border-radius: 0;
+    }
+
+   
+
+
+
+
 }
