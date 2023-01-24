@@ -1,6 +1,39 @@
+html{
+    
+        background-image: linear-gradient(rgb(10, 157, 177), yellow);
+      
+}
+
+
+
+
+
 h1,h6{
     text-align: center;
+
 }
+
+#heading .title{
+    border: 1px solid black;
+    max-width:50%;
+    align-items:inherit;
+    margin:auto;
+    border-radius: 50%;
+    font-size: 150px;
+}
+
+#heading .desc{
+    border:1px solid grey;
+    border-radius: 10%;
+    max-width: 30%;
+    align-items: baseline;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+
 
 #container{
     text-align: center;
